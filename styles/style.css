@@ -1,0 +1,49 @@
+@font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+}
+body{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: digital;
+}
+h2, h3{
+    display: inline-block;
+    background-color: white;
+    font-size: 80px;
+    padding: 10px;
+    border-radius: 10%;
+}
+#timer h2{
+    font-family: digital;
+    width: 80px;
+}
+#timer h3{
+    font-weight: bolder;
+    font-family: digital;
+    font-size: 80px;
+    background-color: black !important;
+    color: white;
+}
+#buttons button{
+    background: #ffff;
+  background-image: -webkit-linear-gradient(top, #ffff, #ffff);
+  background-image: -moz-linear-gradient(top, #ffff, #ffff);
+  background-image: -ms-linear-gradient(top, #ffff, #ffff);
+  background-image: -o-linear-gradient(top, #ffff, #ffff);
+  background-image: linear-gradient(to bottom, #ffff, #ffff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #000;
+  font-size: 32px;
+  padding: 8px 20px 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+}
