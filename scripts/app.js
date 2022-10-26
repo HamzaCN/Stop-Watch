@@ -30,6 +30,7 @@ function timer(){
     }
 }
 function start(){
+    start="disabled";
     interval = setInterval(timer,10);
 }
 function stop(){
